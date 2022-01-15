@@ -1,4 +1,4 @@
-# queue-manager
+# async-queue-manager ![](https://img.shields.io/badge/npm-async--queue-green) ![](https://img.shields.io/badge/async-queue--manager-blue)
 
 A wrapper over [async](https://caolan.github.io/async/v3/docs.html) queue helpful in managing the queue length
 
