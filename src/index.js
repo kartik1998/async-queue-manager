@@ -1,3 +1,5 @@
+const EventEmitter = require('events');
+
 function QueueManager(queue) {
   this._emitter = new EventEmitter();
   const self = this;
