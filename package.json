@@ -1,5 +1,5 @@
 {
-  "name": "kartik1998@queue-manager",
+  "name": "async-queue-manager",
   "version": "1.0.0",
   "description": "A wrapper over async queue helpful in managing the queue length.",
   "main": "src/index.js",
