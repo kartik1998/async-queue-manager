@@ -24,3 +24,7 @@ function main(inputArray) {
   }
 }
 ```
+
+#### When should you use it?
+
+Let's say that you have to load a huge csv file from disk or maybe s3 into memory, convert it into json chunks and do some procesing over it. If you're using (for example) a micro instance (which may already have some heavy processes running) then you only have limited amount of memory and after loading the entire csv file into memory you don't want your queue to use too much memory too. This is where queue manager helps you in pausing and waiting for your queue to clear up a bit before you start loading it again.
