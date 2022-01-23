@@ -1,6 +1,6 @@
 {
   "name": "async-queue-manager",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A wrapper over async queue helpful in managing the queue length.",
   "main": "src/index.js",
   "scripts": {
